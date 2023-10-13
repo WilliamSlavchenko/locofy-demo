@@ -1,0 +1,186 @@
+.matterhorn-suites-image {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  height: 200px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.entire-bungalow {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+  color: var(--color-gray-100);
+}
+.matterhorn-suites,
+.night {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+.matterhorn-suites {
+  margin: 0;
+  font-size: var(--font-size-3xl);
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.night {
+  font-size: var(--font-size-lg);
+}
+.stay-details-rows {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.video-icon1 {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.stay-details {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.div2,
+.reviews {
+  position: absolute;
+  top: 0;
+  left: 53.63px;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  width: 216.37px;
+}
+.div2 {
+  left: 20.34px;
+  font-weight: 500;
+  width: 24px;
+}
+.parent,
+.vector-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.vector-icon {
+  height: 90.47%;
+  width: 37.54%;
+  right: 62.46%;
+  bottom: 9.53%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.parent {
+  width: 44.34px;
+  height: 19px;
+  color: var(--color-darkslategray-300);
+}
+.button2,
+.rating {
+  position: relative;
+  color: var(--color-cornflowerblue-100);
+}
+.rating {
+  width: 270px;
+  height: 19px;
+}
+.button2 {
+  font-size: var(--components-button-large-size);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--components-button-large);
+  text-align: left;
+}
+.hotel-card,
+.hotel-card-1,
+.more-details-button {
+  align-self: stretch;
+  display: flex;
+  box-sizing: border-box;
+}
+.more-details-button {
+  cursor: pointer;
+  border: 1px solid var(--color-lavender);
+  padding: 0;
+  background-color: transparent;
+  border-radius: var(--br-9xs);
+  height: 46px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hotel-card,
+.hotel-card-1 {
+  flex: 1;
+  align-items: flex-start;
+  width: 25%;
+}
+.hotel-card {
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-contrast);
+  border: 1px solid var(--color-whitesmoke);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-smi);
+  gap: var(--gap-4xl);
+}
+.hotel-card:hover {
+  background-color: var(--color-gainsboro-200);
+  cursor: pointer;
+}
+.hotel-card-1 {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-300);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 1200px) {
+  .hotel-card {
+    width: 25% !important;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .hotel-card {
+    width: 100%;
+  }
+  .hotel-card-1 {
+    width: 33.33%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .matterhorn-suites {
+    font-size: var(--font-size-xl);
+  }
+  .hotel-card,
+  .more-details-button {
+    width: 100% !important;
+  }
+  .hotel-card {
+    margin-bottom: 20px;
+  }
+  .hotel-card-1 {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+}
